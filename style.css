@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #333;
+  font-family: Alkatra;
+}
+.box {
+  border: 1px solid #333;
+  background: #fff8f869;
+  border-radius: 5px;
+  padding: 15px;
+}
+h4 {
+  margin: 10px 0;
+  font-size: 23px;
+  text-align: left;
+}
+.inputs {
+  display: flex;
+}
+input {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+
+  border-radius: 3px 0 0 3px;
+  border: none;
+}
+input:focus {
+  transition: all 200ms ease-in;
+  outline: none;
+  font-size: 15px;
+}
+.btn-add {
+  padding: 12px 28px;
+  margin-left: -40px;
+  border-radius: 25px;
+  border: none;
+  background: rgb(55, 222, 33);
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.btn-add:hover {
+  transition: all 100ms ease-in;
+  background: rgb(32, 211, 8);
+}
+.btn-add:active {
+  transform: translateX(2px);
+}
+.text-area {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  color: #fff;
+  margin: 15px 0;
+}
+.new {
+  display: flex;
+  margin: 1px 0;
+  align-items: center;
+  background: rgba(252, 250, 250, 0.847);
+  color: #333;
+  overflow: hidden;
+}
+.new:hover .fa-x,
+.new:hover .fa-check {
+  transition: all 400ms ease-in;
+  transform: translateX(0);
+}
+.new .new-text {
+  margin: 10px;
+  max-width: 290px;
+  font-size: 14px;
+}
+.new .fa-x {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateX(50px);
+  margin: 0 5px;
+  background: #3333333a;
+}
+.fa-check {
+  position: absolute;
+  right: 35px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateX(90px);
+  margin: 0 5px;
+  background: #3333333a;
+}
+.fa-check:hover {
+  background: #135fd1;
+  color: #fff;
+  cursor: pointer;
+}
+.new .fa-x:hover {
+  background: #cf1414ce;
+  cursor: pointer;
+  color: #fff;
+}
+.hidden {
+  display: none;
+}
+.complete {
+  text-decoration: line-through;
+}
