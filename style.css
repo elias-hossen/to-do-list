@@ -27,9 +27,9 @@ h4 {
   display: flex;
 }
 input {
-  height: 40px;
+  height: 10px;
   width: 300px;
-  padding: 10px;
+  padding: 20px;
 
   border-radius: 3px 0 0 3px;
   border: none;
@@ -41,7 +41,7 @@ input:focus {
 }
 .btn-add {
   padding: 12px 28px;
-  margin-left: -40px;
+  margin-left: -17px;
   border-radius: 25px;
   border: none;
   background: rgb(55, 222, 33);
